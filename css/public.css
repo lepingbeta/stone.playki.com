@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bg_left{
+	background-image:url(/image/bg_left.png);
+	background-repeat:no-repeat;
+	width: 2px;
+	height: 512px;
+	float:left;
+}
+
+.bg_center{
+	background-image:url(/image/bg_center.png);
+	background-repeat:repeat-x;
+	width: 956px;
+	height: 512px;
+	float:left;
+}
+
+.bg_right{
+	background-image:url(/image/bg_right.png);
+	background-repeat:no-repeat;
+	width: 2px;
+	height: 512px;
+	float:left;
+}
+
+.nav_left{
+	background-image:url(/image/nav_left.png);
+	background-repeat:no-repeat;
+	width: 6px;
+	height: 487px;
+	float:left;
+}
+
+.nav_right{
+	background-image:url(/image/nav_right.png);
+	background-repeat:no-repeat;
+	width: 6px;
+	height: 487px;
+	float:left;
+}
+
+.nav_center{
+	border-top:2px solid #9A602B;
+	border-bottom:3px solid #9A602B;
+	width: 170px;
+	height: 482px;
+	float:left;
+	background-color:#EEE2C3;
+	text-align:center;
+}
+
+.nav_center ul{
+	margin-top: 25px;
+}
+
+.nav_center ul li{
+	margin-bottom: 15px;
+}
+
+.nav{
+	position:absolute;
+	top:12px;
+	left:755px;
+}
+
+.content_left{
+	background-image:url(/image/content_left.png);
+	background-repeat:no-repeat;
+	width: 10px;
+	height: 491px;
+	float:left;
+}
+
+.content_right{
+	background-image:url(/image/content_right.png);
+	background-repeat:no-repeat;
+	width: 9px;
+	height: 491px;
+	float:left;
+}
+
+.content_center{
+	border-top:5px solid #EEAE5E;
+	border-bottom:5px solid #EEAE5E;
+	width: 700px;
+	height: 481px;
+	float:left;
+	background-color:#EEE2C3;
+}
+
+.content{
+	position:absolute;
+	top:10px;
+	left:20px;
+}
+
+.goods{
+	height: auto;
+	width: 120px;
+}
+
+.goods div{
+	float:left;
+	margin-bottom:10px;
+}
+
+.goods_title{
+	background-image: url(/image/goods_top.png);
+	width: 119px;
+	height: 33px;
+	text-align:center;
+	line-height: 33px;
+}
+
+.goods_photo{
+	background-image: url(/image/goods_content.png);
+	width: 120px;
+	height: 115px;
+	text-align:center;
+}
+
+.goods_photo > img{
+	width: 102px;
+	height: 94px;
+	margin-top: 8%;
+}
+
+.goods_info{
+	background-image: url(/image/goods_bottom.png);
+	width: 119px;
+	height: 33px;
+	text-align:center;
+	line-height: 33px;
+}
+
+.goods_list{
+	margin-top: 20px;
+	margin-left: 28px;
+}
+
+.goods_list li{
+	float:left;
+	margin-top: 5px;
+	margin-right:10px;
+}
